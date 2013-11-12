@@ -1,0 +1,10 @@
+# Output products list for <net2pci_16x32>
+net2pci_16x32.asy
+net2pci_16x32.ngc
+net2pci_16x32.sym
+net2pci_16x32.v
+net2pci_16x32.veo
+net2pci_16x32.xco
+net2pci_16x32_fifo_generator_v4_2_xst_1.ngc_xst.xrpt
+net2pci_16x32_flist.txt
+net2pci_16x32_xmdf.tcl

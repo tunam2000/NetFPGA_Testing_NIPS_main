@@ -1,0 +1,10 @@
+# Output products list for <pci2net_16x60>
+pci2net_16x60.asy
+pci2net_16x60.ngc
+pci2net_16x60.sym
+pci2net_16x60.v
+pci2net_16x60.veo
+pci2net_16x60.xco
+pci2net_16x60_fifo_generator_v4_2_xst_1.ngc_xst.xrpt
+pci2net_16x60_flist.txt
+pci2net_16x60_xmdf.tcl

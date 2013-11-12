@@ -1,0 +1,10 @@
+# Output products list for <syncfifo_1024x72>
+syncfifo_1024x72.asy
+syncfifo_1024x72.ngc
+syncfifo_1024x72.sym
+syncfifo_1024x72.v
+syncfifo_1024x72.veo
+syncfifo_1024x72.xco
+syncfifo_1024x72_fifo_generator_v3_3_xst_1.ngc_xst.xrpt
+syncfifo_1024x72_flist.txt
+syncfifo_1024x72_xmdf.tcl

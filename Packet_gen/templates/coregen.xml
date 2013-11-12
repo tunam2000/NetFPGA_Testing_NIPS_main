@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="cdq_rx_fifo_512x36_to_72" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+cdq_rx_fifo_512x36_to_72 YourInstanceName (
+    .din(din), // Bus [35 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [71 : 0] 
+    .empty(empty),
+    .full(full),
+    .prog_full(prog_full));
+
+ 
+		</Template>
+		<Template label="cdq_rx_fifo_512x36" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+cdq_rx_fifo_512x36 YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [35 : 0] 
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [35 : 0] 
+    .empty(empty),
+    .full(full),
+    .prog_full(prog_full));
+
+ 
+		</Template>
+		<Template label="cdq_tx_fifo_256x72_to_36" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+cdq_tx_fifo_256x72_to_36 YourInstanceName (
+    .din(din), // Bus [71 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [35 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="cdq_tx_fifo_512x36" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+cdq_tx_fifo_512x36 YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [35 : 0] 
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [35 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="net2pci_16x32" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+net2pci_16x32 YourInstanceName (
+    .din(din), // Bus [31 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [31 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="pci2net_16x60" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+pci2net_16x60 YourInstanceName (
+    .din(din), // Bus [59 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [59 : 0] 
+    .empty(empty),
+    .full(full),
+    .prog_full(prog_full));
+
+ 
+		</Template>
+		<Template label="syncfifo_512x32" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+syncfifo_512x32 YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [31 : 0] 
+    .rd_en(rd_en),
+    .srst(srst),
+    .wr_en(wr_en),
+    .dout(dout), // Bus [31 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="hdr_fifo" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+hdr_fifo YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [71 : 0] 
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [71 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="syncfifo_1024x72" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+syncfifo_1024x72 YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [71 : 0] 
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [71 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="syncfifo_512x36" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+syncfifo_512x36 YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [35 : 0] 
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_en(wr_en),
+    .dout(dout), // Bus [35 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="syncfifo_512x72" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+syncfifo_512x72 YourInstanceName (
+    .clk(clk),
+    .din(din), // Bus [71 : 0] 
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_en(wr_en),
+    .dout(dout), // Bus [71 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="tri_mode_eth_mac" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+tri_mode_eth_mac YourInstanceName (
+    .reset(reset),
+    .emacphytxd(emacphytxd), // Bus [7 : 0] 
+    .emacphytxen(emacphytxen),
+    .emacphytxer(emacphytxer),
+    .phyemaccrs(phyemaccrs),
+    .phyemaccol(phyemaccol),
+    .phyemacrxd(phyemacrxd), // Bus [7 : 0] 
+    .phyemacrxdv(phyemacrxdv),
+    .phyemacrxer(phyemacrxer),
+    .clientemactxd(clientemactxd), // Bus [7 : 0] 
+    .clientemactxdvld(clientemactxdvld),
+    .emacclienttxack(emacclienttxack),
+    .clientemactxunderrun(clientemactxunderrun),
+    .emacclienttxcollision(emacclienttxcollision),
+    .emacclienttxretransmit(emacclienttxretransmit),
+    .clientemactxifgdelay(clientemactxifgdelay), // Bus [7 : 0] 
+    .clientemactxenable(clientemactxenable),
+    .clientemacpausereq(clientemacpausereq),
+    .clientemacpauseval(clientemacpauseval), // Bus [15 : 0] 
+    .emacclientrxd(emacclientrxd), // Bus [7 : 0] 
+    .emacclientrxdvld(emacclientrxdvld),
+    .emacclientrxgoodframe(emacclientrxgoodframe),
+    .emacclientrxbadframe(emacclientrxbadframe),
+    .clientemacrxenable(clientemacrxenable),
+    .emacclienttxstats(emacclienttxstats), // Bus [31 : 0] 
+    .emacclienttxstatsvld(emacclienttxstatsvld),
+    .emacclientrxstats(emacclientrxstats), // Bus [27 : 0] 
+    .emacclientrxstatsvld(emacclientrxstatsvld),
+    .tieemacconfigvec(tieemacconfigvec), // Bus [66 : 0] 
+    .txgmiimiiclk(txgmiimiiclk),
+    .rxgmiimiiclk(rxgmiimiiclk),
+    .speedis100(speedis100),
+    .speedis10100(speedis10100),
+    .corehassgmii(corehassgmii));
+
+ 
+		</Template>
+		<Template label="rxlengthfifo_128x13" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+rxlengthfifo_128x13 YourInstanceName (
+    .din(din), // Bus [12 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .dout(dout), // Bus [12 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="txfifo_512x72_to_9" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+txfifo_512x72_to_9 YourInstanceName (
+    .din(din), // Bus [71 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [8 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+		<Template label="rxfifo_8kx9_to_36" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+rxfifo_8kx9_to_36 YourInstanceName (
+    .din(din), // Bus [8 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .dout(dout), // Bus [35 : 0] 
+    .empty(empty),
+    .full(full),
+    .prog_full(prog_full));
+
+ 
+		</Template>
+		<Template label="rxfifo_8kx9_to_72" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+rxfifo_8kx9_to_72 YourInstanceName (
+    .din(din), // Bus [8 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .dout(dout), // Bus [71 : 0] 
+    .empty(empty),
+    .full(full),
+    .prog_full(prog_full));
+
+ 
+		</Template>
+		<Template label="txfifo_1024x36_to_9" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+txfifo_1024x36_to_9 YourInstanceName (
+    .din(din), // Bus [35 : 0] 
+    .rd_clk(rd_clk),
+    .rd_en(rd_en),
+    .rst(rst),
+    .wr_clk(wr_clk),
+    .wr_en(wr_en),
+    .almost_full(almost_full),
+    .dout(dout), // Bus [8 : 0] 
+    .empty(empty),
+    .full(full));
+
+ 
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="cdq_rx_fifo_512x36_to_72" treetype="template">
+		</Template>
+		<Template label="cdq_rx_fifo_512x36" treetype="template">
+		</Template>
+		<Template label="cdq_tx_fifo_256x72_to_36" treetype="template">
+		</Template>
+		<Template label="cdq_tx_fifo_512x36" treetype="template">
+		</Template>
+		<Template label="net2pci_16x32" treetype="template">
+		</Template>
+		<Template label="pci2net_16x60" treetype="template">
+		</Template>
+		<Template label="syncfifo_512x32" treetype="template">
+		</Template>
+		<Template label="hdr_fifo" treetype="template">
+		</Template>
+		<Template label="syncfifo_1024x72" treetype="template">
+		</Template>
+		<Template label="syncfifo_512x36" treetype="template">
+		</Template>
+		<Template label="syncfifo_512x72" treetype="template">
+		</Template>
+		<Template label="tri_mode_eth_mac" treetype="template">
+		</Template>
+		<Template label="rxlengthfifo_128x13" treetype="template">
+		</Template>
+		<Template label="txfifo_512x72_to_9" treetype="template">
+		</Template>
+		<Template label="rxfifo_8kx9_to_36" treetype="template">
+		</Template>
+		<Template label="rxfifo_8kx9_to_72" treetype="template">
+		</Template>
+		<Template label="txfifo_1024x36_to_9" treetype="template">
+		</Template>
+	</Folder>
+</RootFolder>

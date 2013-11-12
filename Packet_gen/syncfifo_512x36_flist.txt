@@ -1,0 +1,8 @@
+# Output products list for <syncfifo_512x36>
+syncfifo_512x36.ngc
+syncfifo_512x36.v
+syncfifo_512x36.veo
+syncfifo_512x36.xco
+syncfifo_512x36_fifo_generator_v4_2_xst_1.ngc_xst.xrpt
+syncfifo_512x36_flist.txt
+syncfifo_512x36_xmdf.tcl

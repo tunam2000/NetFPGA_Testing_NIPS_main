@@ -1,0 +1,194 @@
+ 
+CONFIG PART = 2vp7-ff896-5;
+############################################################
+# Reset path constraints                                   #
+#  These constraints add a measure of protection against   #
+#  metastability and skew in the reset nets.               #
+############################################################
+NET "*trimac_core?BU2?U0?TRIMAC_INST?RXGMIIRSTGENEN?SYNC_GMII_MII_RX_RESET_I?RESET_OUT*" MAXDELAY = 6100 ps;
+NET "*trimac_core?BU2?U0?TRIMAC_INST?SYNC_GMII_MII_TX_RESET_I?RESET_OUT*" MAXDELAY = 6100 ps;
+############################################################
+# External RGMII Constraints                               #
+############################################################
+# RGMII Receiver Constraints: place DDR registers in IOB
+INST "*rgmii_rxd_ddr*"   IOB = true;
+INST "*rgmii_rx_dv_ddr"  IOB = true;
+INST "*rgmii_rx_ctl_ddr" IOB = true;
+
+# Inband Status Registers: place registers in IOB
+INST "inband_link_status"   IOB = true;
+INST "inband_clock_speed*"  IOB = true;
+INST "inband_duplex_status" IOB = true;
+
+# RGMII IOSTANDARD Constraints
+
+INST "rgmii_txd<?>"         IOSTANDARD = HSTL_I;
+INST "rgmii_tx_ctl"         IOSTANDARD = HSTL_I;
+INST "rgmii_rxd<?>"         IOSTANDARD = HSTL_I;
+INST "rgmii_rx_ctl"         IOSTANDARD = HSTL_I;
+
+INST "rgmii_txc"            IOSTANDARD = HSTL_I;
+INST "rgmii_rxc"            IOSTANDARD = HSTL_I;
+
+INST "rgmii_txd<?>"         SLEW = FAST;
+INST "rgmii_tx_ctl"         SLEW = FAST;
+INST "rgmii_txc"            SLEW = FAST;
+
+
+
+############################################################
+# RGMII Receiver side DCM Constraints                      #
+############################################################
+# DCM Phase Shift required is dependant on FPGA device and 
+# may need to be changed.
+INST *gmii_rxc_dcm CLKOUT_PHASE_SHIFT = FIXED;
+INST *gmii_rxc_dcm PHASE_SHIFT = 0;
+ 
+
+
+############################################################
+# Example LOC Constraints to meet timing                   # 
+############################################################
+INST rgmii_rxc LOC=B;
+INST *bufg_gmii_rx_clk     LOC=BUFGMUX6P;
+INST *BUFGMUX_SPEED_CLK    LOC=BUFGMUX7P;
+INST *BUFGMUXCLK90         LOC=BUFGMUX3P;
+
+
+############################################################
+# RGMII receiver side double data rate falling to rising 
+# edge reclocking.  These constraints take into account the 
+# worst case clock period with worst case duty cycle.
+############################################################
+INST "*rgmii_rxd_reg_4"      TNM="rgmii_falling";
+INST "*rgmii_rxd_reg_5"      TNM="rgmii_falling";
+INST "*rgmii_rxd_reg_6"      TNM="rgmii_falling";
+INST "*rgmii_rxd_reg_7"      TNM="rgmii_falling";
+INST "*rgmii_rx_ctl_reg"     TNM="rgmii_falling";
+INST "*gmii_rxd_reg_4"       TNM="rgmii_rising";
+INST "*gmii_rxd_reg_5"       TNM="rgmii_rising";
+INST "*gmii_rxd_reg_6"       TNM="rgmii_rising";
+INST "*gmii_rxd_reg_7"       TNM="rgmii_rising";
+INST "*gmii_rx_er_reg"       TNM="rgmii_rising";
+TIMESPEC "TS_rgmii_falling_to_rising" = FROM "rgmii_falling" TO "rgmii_rising" 3200 ps;
+
+
+
+
+############################################################
+# Clock Period Constraints                                 #
+############################################################
+
+
+############################################################
+# RX Clock period Constraints                              #
+############################################################
+# Receiver clock period constraints: please do not relax
+NET "*rx_rgmii_clk_int" TNM_NET = "clk_rx";
+TIMEGRP "rx_clock"         = "clk_rx";
+TIMESPEC "TS_rx_clk"       = PERIOD "rx_clock" 8000 ps HIGH 50 %;
+
+
+############################################################
+# TX Clock period Constraints                              #
+############################################################
+# Transmitter clock period constraints: please do not relax
+NET "*tx_clk180" TNM_NET   = "clk_tx";
+TIMEGRP "tx_clock"         = "clk_tx";
+TIMESPEC "TS_tx_clk"       = PERIOD "tx_clock" 8000 ps HIGH 50 %;
+
+NET "*tx_rgmii_clk*" TNM_NET    = "clk_tx_gmii";
+TIMEGRP "tx_clock_gmii"        = "clk_tx_gmii";
+TIMESPEC "TS_tx_clk_gmii"      = PERIOD "tx_clock_gmii" 8000 ps HIGH 50 %;
+
+
+
+############################################################
+# Crossing of Clock Domain Constraints: please do not edit #
+############################################################
+# Flow Control logic reclocking
+INST "*trimac_core?BU2?U0?TRIMAC_INST?FLOW?RX_PAUSE?GOOD_FRAME_TO_TX"   TNM="flow_rx_to_tx";
+INST "*trimac_core?BU2?U0?TRIMAC_INST?FLOW?RX_PAUSE?PAUSE_REQ_TO_TX"    TNM="flow_rx_to_tx";
+INST "*trimac_core?BU2?U0?TRIMAC_INST?FLOW?RX_PAUSE?PAUSE_VALUE_TO_TX*" TNM="flow_rx_to_tx";
+TIMESPEC "TS_flow_rx_to_tx" = FROM "flow_rx_to_tx" TO "tx_clock_gmii" 8000 ps DATAPATHONLY;
+
+
+############################################################
+# FIFO Clock Crossing Constraints                          #
+############################################################
+## TX Client FIFO
+# Group the clock crossing signals into timing groups
+INST "*tx_fifo_i/rd_tran_frame_tog"    TNM = "tx_fifo_rd_to_wr";
+INST "*tx_fifo_i/rd_retran_frame_tog"  TNM = "tx_fifo_rd_to_wr";
+INST "*tx_fifo_i/rd_addr_txfer*"       TNM = "tx_fifo_rd_to_wr";
+INST "*tx_fifo_i/rd_txfer_tog"         TNM = "tx_fifo_rd_to_wr";
+INST "*tx_fifo_i/rd_col_window_pipe_1" TNM = "tx_fifo_rd_to_wr";
+INST "*tx_fifo_i/wr_frame_in_fifo"     TNM = "tx_fifo_wr_to_rd";
+
+TIMESPEC "TS_tx_fifo_rd_to_wr" = FROM "tx_fifo_rd_to_wr" TO "tx_clock_gmii" 8000 ps DATAPATHONLY;
+TIMESPEC "TS_tx_fifo_wr_to_rd" = FROM "tx_fifo_wr_to_rd" TO "tx_clock_gmii" 8000 ps DATAPATHONLY;
+
+# Reduce clock period to allow for metastability settling time
+INST "*tx_fifo_i/wr_tran_frame_tog"    TNM = "tx_metastable";
+INST "*tx_fifo_i/wr_retran_frame_tog*" TNM = "tx_metastable";
+INST "*tx_fifo_i/wr_txfer_tog"         TNM = "tx_metastable";
+INST "*tx_fifo_i/wr_col_window_pipe_0" TNM = "tx_metastable";
+INST "*tx_fifo_i/frame_in_fifo_sync"   TNM = "tx_metastable";
+
+TIMESPEC "ts_tx_meta_protect" = FROM "tx_metastable" 5 ns;
+
+# constrain the input to this register - this is a multicycle path due to the 
+# resync of the control
+INST "*tx_fifo_i/rd_addr_txfer*"          TNM = "tx_addr_rd";
+INST "*tx_fifo_i/wr_rd_addr*"          TNM = "tx_addr_wr";
+TIMESPEC "TS_tx_fifo_addr" = FROM "tx_addr_rd" TO "tx_addr_wr" 10ns;
+
+
+## RX Client FIFO
+# Group the clock crossing signals into timing groups
+INST "*rx_fifo_i/wr_store_frame_tog"   TNM = "rx_fifo_wr_to_rd";
+INST "*rx_fifo_i/rd_addr_gray*"        TNM = "rx_fifo_rd_to_wr";
+
+TIMESPEC "TS_rx_fifo_wr_to_rd" = FROM "rx_fifo_wr_to_rd" TO "tx_clock_gmii" 8000 ps DATAPATHONLY;
+TIMESPEC "TS_rx_fifo_rd_to_wr" = FROM "rx_fifo_rd_to_wr" TO "rx_clock" 8000 ps DATAPATHONLY;
+
+# Reduce clock period to allow for metastability settling time
+INST "*rx_fifo_i/wr_rd_addr_gray_sync*" TNM = "rx_metastable";
+INST "*rx_fifo_i/rd_store_frame_tog"   TNM = "rx_metastable";
+
+TIMESPEC "ts_rx_meta_protect" = FROM "rx_metastable" 5 ns; 
+
+# Ignore paths to resync flops
+INST "*INT_CRS"       TNM = "tx_async_reg";
+INST "*REG_COL"       TNM = "tx_async_reg";
+INST "*COL_REG1"      TNM = "tx_async_reg";
+# follwing two can be ignored as signal being captured is stable for multiple cycles
+# in cases where it is used
+INST "*REG_TX_EN_IN"  TNM = "tx_async_reg";
+INST "*REG_TX_ER_IN"  TNM = "tx_async_reg";
+TIMESPEC "ts_tx_async_regs" = TO "tx_async_reg" TIG;
+
+
+############################################################
+# NOTE: The transmitter and receiver statistic vectors are #
+# routed to IOB's in this design example only to enable    #
+# them to be viewed from the demonstration testbench. In a # 
+# real design it is expected that they will either be left #
+# unconnected or used internally within the FPGA to        #
+# generate further statistical counters.                   #
+############################################################
+
+INST *rx_statistics_valid_reg   IOB = true;
+INST *rx_statistics_vector_reg* IOB = true;
+INST *tx_statistics_valid_reg   IOB = true;
+INST *tx_statistics_vector_reg* IOB = true;
+
+
+
+
+
+
+
+
+
+

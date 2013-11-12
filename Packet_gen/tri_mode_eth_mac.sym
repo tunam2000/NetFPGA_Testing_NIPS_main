@@ -1,0 +1,196 @@
+VERSION 5
+BEGIN SYMBOL tri_mode_eth_mac
+SYMBOLTYPE BLOCK
+TIMESTAMP 2013 9 20 8 14 17
+SYMPIN 0 80 Input reset
+SYMPIN 0 144 Input clientemactxd[7:0]
+SYMPIN 0 176 Input clientemactxdvld
+SYMPIN 0 208 Output emacclienttxack
+SYMPIN 0 240 Input clientemactxunderrun
+SYMPIN 0 272 Output emacclienttxcollision
+SYMPIN 0 304 Output emacclienttxretransmit
+SYMPIN 0 336 Input clientemactxifgdelay[7:0]
+SYMPIN 0 368 Input clientemactxenable
+SYMPIN 0 400 Input clientemacpausereq
+SYMPIN 0 432 Input clientemacpauseval[15:0]
+SYMPIN 0 464 Output emacclienttxstats[31:0]
+SYMPIN 0 496 Output emacclienttxstatsvld
+SYMPIN 0 560 Output emacclientrxd[7:0]
+SYMPIN 0 592 Output emacclientrxdvld
+SYMPIN 0 624 Output emacclientrxgoodframe
+SYMPIN 0 656 Output emacclientrxbadframe
+SYMPIN 0 688 Input clientemacrxenable
+SYMPIN 0 720 Output emacclientrxstats[27:0]
+SYMPIN 0 752 Output emacclientrxstatsvld
+SYMPIN 0 880 Input txgmiimiiclk
+SYMPIN 0 912 Input rxgmiimiiclk
+SYMPIN 0 976 Input tieemacconfigvec[66:0]
+SYMPIN 0 1040 Output speedis100
+SYMPIN 0 1072 Output speedis10100
+SYMPIN 0 1104 Input corehassgmii
+SYMPIN 512 80 Output emacphytxd[7:0]
+SYMPIN 512 112 Output emacphytxen
+SYMPIN 512 144 Output emacphytxer
+SYMPIN 512 176 Input phyemaccrs
+SYMPIN 512 208 Input phyemaccol
+SYMPIN 512 240 Input phyemacrxd[7:0]
+SYMPIN 512 272 Input phyemacrxdv
+SYMPIN 512 304 Input phyemacrxer
+BEGIN DISPLAY 32 32 TEXT tri_mode_eth_mac
+    FONT 40 "Arial"
+END DISPLAY
+RECTANGLE N 32 32 480 1216 
+LINE N 0 80 32 80 
+BEGIN DISPLAY 36 80 PIN reset ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 0 144 32 144 
+END LINE
+BEGIN DISPLAY 36 144 PIN clientemactxd[7:0] ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 176 32 176 
+BEGIN DISPLAY 36 176 PIN clientemactxdvld ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 208 32 208 
+BEGIN DISPLAY 36 208 PIN emacclienttxack ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 240 32 240 
+BEGIN DISPLAY 36 240 PIN clientemactxunderrun ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 272 32 272 
+BEGIN DISPLAY 36 272 PIN emacclienttxcollision ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 304 32 304 
+BEGIN DISPLAY 36 304 PIN emacclienttxretransmit ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 0 336 32 336 
+END LINE
+BEGIN DISPLAY 36 336 PIN clientemactxifgdelay[7:0] ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 368 32 368 
+BEGIN DISPLAY 36 368 PIN clientemactxenable ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 400 32 400 
+BEGIN DISPLAY 36 400 PIN clientemacpausereq ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 0 432 32 432 
+END LINE
+BEGIN DISPLAY 36 432 PIN clientemacpauseval[15:0] ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 0 464 32 464 
+END LINE
+BEGIN DISPLAY 36 464 PIN emacclienttxstats[31:0] ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 496 32 496 
+BEGIN DISPLAY 36 496 PIN emacclienttxstatsvld ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 0 560 32 560 
+END LINE
+BEGIN DISPLAY 36 560 PIN emacclientrxd[7:0] ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 592 32 592 
+BEGIN DISPLAY 36 592 PIN emacclientrxdvld ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 624 32 624 
+BEGIN DISPLAY 36 624 PIN emacclientrxgoodframe ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 656 32 656 
+BEGIN DISPLAY 36 656 PIN emacclientrxbadframe ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 688 32 688 
+BEGIN DISPLAY 36 688 PIN clientemacrxenable ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 0 720 32 720 
+END LINE
+BEGIN DISPLAY 36 720 PIN emacclientrxstats[27:0] ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 752 32 752 
+BEGIN DISPLAY 36 752 PIN emacclientrxstatsvld ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 880 32 880 
+BEGIN DISPLAY 36 880 PIN txgmiimiiclk ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 912 32 912 
+BEGIN DISPLAY 36 912 PIN rxgmiimiiclk ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 0 976 32 976 
+END LINE
+BEGIN DISPLAY 36 976 PIN tieemacconfigvec[66:0] ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 1040 32 1040 
+BEGIN DISPLAY 36 1040 PIN speedis100 ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 1072 32 1072 
+BEGIN DISPLAY 36 1072 PIN speedis10100 ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 0 1104 32 1104 
+BEGIN DISPLAY 36 1104 PIN corehassgmii ATTR PinName
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 512 80 480 80 
+END LINE
+BEGIN DISPLAY 476 80 PIN emacphytxd[7:0] ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 512 112 480 112 
+BEGIN DISPLAY 476 112 PIN emacphytxen ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 512 144 480 144 
+BEGIN DISPLAY 476 144 PIN emacphytxer ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 512 176 480 176 
+BEGIN DISPLAY 476 176 PIN phyemaccrs ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 512 208 480 208 
+BEGIN DISPLAY 476 208 PIN phyemaccol ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+BEGIN LINE W 512 240 480 240 
+END LINE
+BEGIN DISPLAY 476 240 PIN phyemacrxd[7:0] ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 512 272 480 272 
+BEGIN DISPLAY 476 272 PIN phyemacrxdv ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+LINE N 512 304 480 304 
+BEGIN DISPLAY 476 304 PIN phyemacrxer ATTR PinName
+    ALIGNMENT RIGHT
+    FONT 24 "Arial"
+END DISPLAY
+END SYMBOL

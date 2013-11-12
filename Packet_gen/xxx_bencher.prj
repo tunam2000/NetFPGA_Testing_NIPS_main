@@ -1,0 +1,2 @@
+verilog work "TCP_SYN_GEN_main.v"
+verilog work /opt/Xilinx/10.1/ISE/verilog/src/glbl.v

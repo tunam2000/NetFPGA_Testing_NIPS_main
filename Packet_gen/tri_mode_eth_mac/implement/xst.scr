@@ -1,0 +1,8 @@
+run
+-ifn xst.prj
+-ifmt mixed
+-ofn tri_mode_eth_mac_example_design
+-top tri_mode_eth_mac_example_design
+-p virtex2p
+-keep_hierarchy no
+

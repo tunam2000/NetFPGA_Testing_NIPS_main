@@ -1,0 +1,6 @@
+verilog work "small_fifo_v3.v"
+verilog work "TCP_SYN_GEN_main.v"
+verilog work "port_mux_new.v"
+verilog work "test_gen_mux.v"
+verilog work "sim_test_gen_mux.v"
+verilog work "/opt/Xilinx/10.1/ISE/verilog/src/glbl.v"

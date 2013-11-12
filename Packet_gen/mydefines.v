@@ -1,0 +1,5 @@
+`include "registers.v"
+`include "cpci_defines.v"
+`include "global_defines.v"
+`include "NF_2.1_defines.v"
+`include "udp_defines.v"

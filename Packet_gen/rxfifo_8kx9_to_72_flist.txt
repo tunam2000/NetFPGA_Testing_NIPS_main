@@ -1,0 +1,8 @@
+# Output products list for <rxfifo_8kx9_to_72>
+rxfifo_8kx9_to_72.ngc
+rxfifo_8kx9_to_72.v
+rxfifo_8kx9_to_72.veo
+rxfifo_8kx9_to_72.xco
+rxfifo_8kx9_to_72_fifo_generator_v3_2_xst_1.ngc_xst.xrpt
+rxfifo_8kx9_to_72_flist.txt
+rxfifo_8kx9_to_72_xmdf.tcl

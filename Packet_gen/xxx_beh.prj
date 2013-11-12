@@ -1,0 +1,4 @@
+verilog work "small_fifo_v3.v"
+verilog work "TCP_SYN_GEN_main.v"
+verilog work "xxx.v"
+verilog work "/opt/Xilinx/10.1/ISE/verilog/src/glbl.v"

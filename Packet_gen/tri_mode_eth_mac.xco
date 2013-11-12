@@ -1,0 +1,47 @@
+##############################################################
+#
+# Xilinx Core Generator version K.39
+# Date: Fri Sep 20 08:15:33 2013
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = False
+SET asysymbol = True
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = Verilog
+SET device = xc2vp50
+SET devicefamily = virtex2p
+SET flowvendor = Foundation_iSE
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = ff1152
+SET removerpms = False
+SET simulationfiles = Structural
+SET speedgrade = -7
+SET verilogsim = True
+SET vhdlsim = False
+# END Project Options
+# BEGIN Select
+SELECT Tri_Mode_Ethernet_MAC family Xilinx,_Inc. 3.4
+# END Select
+# BEGIN Parameters
+CSET address_filter=false
+CSET clock_enables=true
+CSET component_name=tri_mode_eth_mac
+CSET management_interface=false
+CSET number_of_address_table_entries=0
+CSET physical_interface=RGMII
+# END Parameters
+GENERATE
+# CRC: bf68ad02
+

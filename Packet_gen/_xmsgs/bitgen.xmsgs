@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Bitgen" num="40" delta="unknown" >Replacing &quot;<arg fmt="%s" index="1">Auto</arg>&quot; with &quot;<arg fmt="%s" index="2">NoWait</arg>&quot; for option &quot;<arg fmt="%s" index="3">Match_cycle</arg>&quot;.  Most commonly, bitgen has determined and will use a specific value instead of the generic command-line value of &quot;Auto&quot;.  Alternately, this message appears if the same option is specified multiple times on the command-line.  In this case, the option listed last will be used.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[0].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[1].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[0].cpu_dma_queue_i/cpu_dma_rx_queue/cpu_fifos64.rx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp18x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[1].cpu_dma_queue_i/cpu_dma_rx_queue/cpu_fifos64.rx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp18x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[0].cpu_dma_queue_i/cpu_dma_tx_queue/cpu_fifos64.tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x18.ram.B</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16B</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[1].cpu_dma_queue_i/cpu_dma_tx_queue/cpu_fifos64.tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x18.ram.B</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16B</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpci_bus/pci2net_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[0].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[1].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[2].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[3].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64_2.output_fifos_2[8].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64_2.output_fifos_2[9].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[0].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[1].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_in_q_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[0].cpu_dma_queue_i/cpu_dma_rx_queue/cpu_fifos64.rx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp18x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[1].cpu_dma_queue_i/cpu_dma_rx_queue/cpu_fifos64.rx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp18x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[0].cpu_dma_queue_i/cpu_dma_tx_queue/cpu_fifos64.tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x18.ram.B</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16B</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/cpu_queues[1].cpu_dma_queue_i/cpu_dma_tx_queue/cpu_fifos64.tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x18.ram.B</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16B</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[0].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[1].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[2].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64.output_fifos[3].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64_2.output_fifos_2[8].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/remove_pkt/output_fifo64_2.output_fifos_2[9].gmac_tx_fifo/BU2/U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v2.ram/dp36x36.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_lo_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[0].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[1].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_rd_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[0].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/delay_modules[1].delay/delay_fifo/BU2/U0/gen_ss.ss/memblk/bmem.bmg.bmg_inst/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v2.ram/dp18x18.ram.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/num_words_left_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/input_fifo/fifo/Mram_queue1.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/user_data_path/output_queues/input_fifo/fifo/Mram_queue2.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_wr_addr_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/mac_groups[0].nf2_mac_grp/rx_queue/.pkt_timestamp_fifo/Mram_queue1.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1060" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">nf2_core/mac_groups[1].nf2_mac_grp/rx_queue/.pkt_timestamp_fifo/Mram_queue1.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use input parity pins. There are dangling output parity pins.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_full_thresh_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOA31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.A</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16A</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB19</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB20</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB21</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB22</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB23</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB24</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB25</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB26</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB27</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB28</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB29</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB30</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DOB31</arg>&gt; on block:&lt;<arg fmt="%s" index="2">nf2_core/user_data_path/output_queues/oq_regs/oq_reg_instances/oq_addr_hi_reg/ram/Mram_ram.B</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16_RAMB16B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Bitgen" num="0" delta="unknown" >
+    This design contains one or more evaluation cores that will cease to
+    function after a certain period of time. This design should NOT be used
+    in production systems.
+
+</msg>
+
+</messages>
+

@@ -1,0 +1,4 @@
+verilog isim_temp "small_fifo_v3.v"
+verilog isim_temp "TCP_SYN_GEN_main.v"
+verilog isim_temp "xxx.v"
+verilog isim_temp "/opt/Xilinx/10.1/ISE/verilog/src/glbl.v"

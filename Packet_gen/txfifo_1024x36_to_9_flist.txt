@@ -1,0 +1,8 @@
+# Output products list for <txfifo_1024x36_to_9>
+txfifo_1024x36_to_9.ngc
+txfifo_1024x36_to_9.v
+txfifo_1024x36_to_9.veo
+txfifo_1024x36_to_9.xco
+txfifo_1024x36_to_9_fifo_generator_v4_2_xst_1.ngc_xst.xrpt
+txfifo_1024x36_to_9_flist.txt
+txfifo_1024x36_to_9_xmdf.tcl

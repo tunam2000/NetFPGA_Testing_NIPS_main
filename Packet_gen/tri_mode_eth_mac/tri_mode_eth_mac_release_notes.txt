@@ -1,0 +1,89 @@
+COPYRIGHT (c) 2004-2007 XILINX, INC. 
+ALL RIGHTS RESERVED
+
+Core name            : Tri-Mode Ethernet MAC
+Version              : 3.4
+Release Date         : August 8th, 2007
+File                 : tri_mode_eth_mac_release_notes.txt 
+
+Revision History
+Date     By            Version   Change Description
+========================================================================
+09/2004  Xilinx, Inc.  1.1         Release for ISE 6.3i
+04/2005  Xilinx, Inc.  2.1         Release for ISE 7.1i
+06/2005  Xilinx, Inc.  2.1 patch 1 Patch release
+01/2006  Xilinx, Inc.  2.2         Release for ISE 8.1i
+07/2006  Xilinx, Inc.  3.1         Release for ISE 8.2i
+09/2006  Xilinx, Inc.  3.2         Release for ISE 8.2i
+02/2007  Xilinx, Inc.  3.3         Release for ISE 9.1i
+04/2007  Xilinx, Inc.  3.3 rev 1   Spartan(TM)-3A DSP support  
+08/2007  Xilinx, Inc.  3.4         Release for ISE 9.2i
+========================================================================
+
+INTRODUCTION
+
+RELEASE NOTES
+  1. Enhancements
+  2. Bug Fixes
+  3. Known Issues
+
+TECHNICAL SUPPORT
+
+========================================================================
+
+INTRODUCTION
+============
+
+Thank you for purchasing the Tri-Mode Ethernet MAC LogiCORE from Xilinx!
+The Xilinx Tri-Mode Ethernet MAC LogiCORE is a fully verified, 
+pre-implemented core.  To obtain the latest core updates and 
+documentation, please visit the Tri-Mode Ethernet MAC Lounge. 
+The lounge is accessible from the Tri-Mode Ethernet MAC product page:
+
+http://www.xilinx.com/systemio/temac/index.htm
+
+Please refer to the Tri-Mode Ethernet MAC Getting Started Guide for more 
+information on how to set up and use the Xilinx Tri-Mode Ethernet
+MAC solution.  This document contains the release notes for 
+Tri-Mode Ethernet MAC Version 3.4 which includes enhancements, 
+resolved issues and outstanding known issues.
+
+
+
+RELEASE NOTES
+=============
+
+This section lists the enhancements and known issues associated with this 
+release.
+
+1. Enhancements 
+
+   * Support added for ISE 9.2i 
+
+   * Added IDELAY/IODELAY components in Virtex(TM)-4/Virtex-5 implementations 
+     to the relevant clock input as well as the data and control signals.
+ 
+   * Updated The Address Filter defaults to prevent the passing of all-zero addresses
+
+   
+2. Bug Fixes
+
+   * None
+
+3. Known Issues
+
+   For a list of the current known issues with the Tri-Mode Ethernet
+   MAC v3.4 core, please refer to Answer Record 25222:
+
+   http://support.xilinx.com/xlnx/xil_ans_display.jsp?iLanguageID=1&iCountryID=1&getPagePath=25222
+
+TECHNICAL SUPPORT
+=================
+The fastest method for obtaining specific technical support for the 
+Tri-Mode Ethernet MAC core is through the http://www.xilinx.com/support
+website. Questions are routed to a team of engineers with specific 
+expertise in using the Tri-Mode Ethernet MAC core. Xilinx will provide 
+technical support for use of this product as described in the Tri-Mode
+Ethernet MAC User Guide and the Tri-Mode Ethernet MAC Getting Started 
+Guide. Xilinx cannot guarantee timing, functionality, or support of this 
+product for designs that do not follow these guidelines.

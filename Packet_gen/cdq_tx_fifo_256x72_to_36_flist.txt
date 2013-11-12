@@ -1,0 +1,8 @@
+# Output products list for <cdq_tx_fifo_256x72_to_36>
+cdq_tx_fifo_256x72_to_36.ngc
+cdq_tx_fifo_256x72_to_36.v
+cdq_tx_fifo_256x72_to_36.veo
+cdq_tx_fifo_256x72_to_36.xco
+cdq_tx_fifo_256x72_to_36_fifo_generator_v4_2_xst_1.ngc_xst.xrpt
+cdq_tx_fifo_256x72_to_36_flist.txt
+cdq_tx_fifo_256x72_to_36_xmdf.tcl
